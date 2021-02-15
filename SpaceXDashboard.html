@@ -55,16 +55,10 @@
             var foodChart = new Chart(myChart, {
                 type: 'line', //bar, blabla
                 data: {
-                    labels: ['T-80 minutes', 'T-60 minutes', 'T-40 minutes', 'T-20 minutes', 'Now'],
+                    labels: ['T-80m', 'T-60m', 'T-40m', 'T-20m', 'Now'],
                     datasets: [{
                         label: 'm/s',
-                        data: [
-                            1.9,
-                            2.1,
-                            3,
-                            3.6,
-                            3.7
-                        ],
+                        data: [1.9, 2.1, 3, 3.6, 3.7],
                         //backgroundColor: '#0E1428',
                       
                         borderWidth:0,
@@ -100,17 +94,9 @@
                     labels: ['Raptor 1', 'Raptor 2', 'Raptor 3'],
                     datasets: [{
                         label: 'Engine',
-                        data: [
-                            70,
-                            60,
-                            90
-                        ],
+                        data: [70, 60, 90],
                         //backgroundColor: '#0E1428',
-                        backgroundColor: [
-                            '#861657',
-                            '#A64253',
-                            '#D56AA0',
-                        ],
+                        backgroundColor: ['#861657','#A64253','#D56AA0'],
                         borderWidth:0,
                         borderColor:'#999',
                         hoverBorderWidth:2,
@@ -144,19 +130,9 @@
                     labels: ['LOX', 'CH4', 'O2', 'HN2'],
                     datasets: [{
                         label: 'Fuel',
-                        data: [
-                            1100,
-                            902,
-                            851,
-                            750
-                        ],
+                        data: [1100, 902, 851, 90],
                         //backgroundColor: '#0E1428',
-                        backgroundColor: [
-                            '#861657',
-                            '#A64253',
-                            '#D56AA0',
-                            '#BBDBB4'
-                        ],
+                        backgroundColor: ['#861657','#A64253','#D56AA0','#BBDBB4'],
                         borderWidth:0,
                         borderColor:'#fff',
                         hoverBorderWidth:2,
